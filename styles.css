@@ -67,6 +67,18 @@ header {
     font-weight: bold;
 }
 
+@media(max-width:593px){
+  .charleston-forum {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2em;
+    text-align: center;
+    margin-left: 10em;  
+  }
+}
+
+/* take off left margin above if needed */
+
 @media(max-width:1149px){
   .charleston-forum {
     margin-top: 4em;
@@ -144,21 +156,41 @@ header {
   font-family: PT Sans;  
 }
 
-@media(max-width:1149px){
+/* @media(max-width:1149px){
   .top-nav-bar {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
+  } 
+  
+  THIS GUY HERE IS MY PROBLEM CHILD
+  
+  */
 
 @media(max-width:593px){
   .top-nav-bar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: -2em;
-    text-align: center;    
+    text-align: center;
+    margin-left: -4em;   
   }
 }
+
+/* 
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -2em;
+    text-align: center; 
+
+FOR UP TOP 
+
+display: flex;
+flex-direction: row;
+margin-top: -2em;
+text-align: center;
+margin-left: -4em; */
 
 
 span {
@@ -414,7 +446,6 @@ form {
 @media(min-width:1151px){
   .color-me {
     margin-top: 2em;
-    /* margin-left: -1em; */
     margin-right: 5em;  }
 }
 
@@ -447,35 +478,13 @@ select {
 
 @media(min-width:1150px){
   .dropdown {
-    position: relative;
-    display: none;
-  }
-}
-
-@media(min-width:1150px){
-  #dropdown-btn {
     /* position: relative; */
     display: none;
   }
 }
 
-@media(max-width:1149px){
-  #dropdown-btn {
-    background-color: #75C2EC;
-    border: 2px solid white;;
-    color: #274B77;
-    padding: 15px 32px;
-    text-align: center;
-    align-self: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 18vw;
-  }
-}
-
 @media(max-width:593px){
-  #dropdown-btn {
+  #dropdown {
     background-color: #75C2EC;
     border: 2px solid white;
     color: #274B77;
@@ -487,6 +496,28 @@ select {
     width: 28vw;
     height: 1em;
     padding-top: .5em;
+  }
+}
+
+@media(max-width:1149px){
+  #dropdown-btn {
+    background-color: #75C2EC;
+    border: 2px solid white;
+    color: #274B77;
+    padding: 14px 14px;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 18vw;
+  }
+}
+
+@media(min-width:1150px){
+  #dropdown-btn {
+    /* position: relative; */
+    display: none;
   }
 }
 
@@ -514,3 +545,4 @@ select {
   float: right;
   width:50%;
 } 
+}
