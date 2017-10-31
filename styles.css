@@ -152,6 +152,15 @@ header {
   }
 }
 
+@media(max-width:593px){
+  .top-nav-bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2em;
+    text-align: center;
+  }
+}
+
 
 span {
   font-weight: bold;
@@ -212,10 +221,10 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 1vw;
-  padding-right: 15vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   justify-content: center;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 .huddle-image {
@@ -468,15 +477,16 @@ select {
 @media(max-width:593px){
   #dropdown-btn {
     background-color: #75C2EC;
-    border: 2px solid white;;
+    border: 2px solid white;
     color: #274B77;
-    padding: 15px 32px;
     text-align: center;
     align-self: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    width: 18vw;
+    font-size: 10px;
+    width: 28vw;
+    height: 1em;
+    padding-top: .5em;
   }
 }
 
