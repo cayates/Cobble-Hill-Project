@@ -390,6 +390,7 @@ form {
     width: 48%;
     margin-right: 1em;
     margin-top: 1em;
+    font-size: 10px;
   }
 }
 
@@ -513,4 +514,4 @@ select {
   justify-content: space-around;
   float: right;
   width:50%;
-}
+}  
