@@ -73,11 +73,10 @@ header {
     flex-direction: column;
     margin-top: -2em;
     text-align: center;
-    margin-left: 10em;  
+    margin-left: 16em;
+    font-size: 12px;
   }
 }
-
-/* take off left margin above if needed */
 
 @media(max-width:1149px){
   .charleston-forum {
@@ -156,42 +155,15 @@ header {
   font-family: PT Sans;  
 }
 
-/* @media(max-width:1149px){
-  .top-nav-bar {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  } 
-  
-  THIS GUY HERE IS MY PROBLEM CHILD
-  
-  */
-
 @media(max-width:593px){
   .top-nav-bar {
     display: flex;
     flex-direction: row;
     margin-top: -2em;
     text-align: center;
-    margin-left: -4em;   
+    margin-left: -5em;  
   }
 }
-
-/* 
-
-    display: flex;
-    flex-direction: column;
-    margin-top: -2em;
-    text-align: center; 
-
-FOR UP TOP 
-
-display: flex;
-flex-direction: row;
-margin-top: -2em;
-text-align: center;
-margin-left: -4em; */
-
 
 span {
   font-weight: bold;
